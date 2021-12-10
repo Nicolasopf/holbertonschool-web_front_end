@@ -1,7 +1,7 @@
 /* Debuggin time */
 
-@for $num from 1 through 5 {
-  .h#{$num} {
-	font-size: #{$num}px;
+@for $i from 1 through 5 {
+  .h#{$i} {
+	font-size: #{$i}px;
   }
 }
