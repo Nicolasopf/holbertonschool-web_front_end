@@ -1,0 +1,11 @@
+/* Debuggin time */
+
+.h1 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  .h1 {
+    font-size: 14px;
+  }
+}
