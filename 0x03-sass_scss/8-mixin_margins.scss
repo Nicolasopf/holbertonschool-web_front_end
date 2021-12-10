@@ -1,0 +1,14 @@
+/* Debuggin time */
+
+@mixin margins($px) {
+  margin-left: $px;
+  margin-right: $px;
+}
+
+body {
+  @include margins(10px);
+}
+
+div {
+  @include margins(15px);
+}
